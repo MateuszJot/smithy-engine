@@ -1,0 +1,3 @@
+[submodule "Smithy/vendor/spdlog"]
+	path = Smithy/vendor/spdlog
+	url = https://github.com/gabime/spdlog
