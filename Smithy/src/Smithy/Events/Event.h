@@ -2,9 +2,6 @@
 
 #include "Smithy/Core.h"
 
-#include <string>
-#include <functional>
-
 namespace Smithy {
 
 	// Events in smithy are currently blocking, meaning that when an event occurs it

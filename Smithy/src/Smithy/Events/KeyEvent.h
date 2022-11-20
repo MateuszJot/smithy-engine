@@ -2,8 +2,6 @@
 
 #include "Event.h"
 
-#include <sstream>
-
 namespace Smithy {
 
 	class SMITHY_API KeyEvent : public Event

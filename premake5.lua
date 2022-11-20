@@ -18,6 +18,9 @@ project "Smithy"
 	targetdir ("bin/" .. outputdir .. "/%{prj.name}")
 	objdir ("bin-int/" .. outputdir .. "/%{prj.name}")
 
+	pchheader "sypch.h"
+	pchsource "Smithy/src/sypch.cpp"
+
 	files
 	{
 		"%{prj.name}/src/**.h",

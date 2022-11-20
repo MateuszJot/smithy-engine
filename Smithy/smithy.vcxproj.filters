@@ -5,10 +5,11 @@
       <UniqueIdentifier>{032F6BD1-EFD0-95A7-D88B-A9FBC4CC1CF8}</UniqueIdentifier>
     </Filter>
     <Filter Include="Smithy\Events">
-      <UniqueIdentifier>{1cf38f24-cd19-415e-a4a0-3e49b254de39}</UniqueIdentifier>
+      <UniqueIdentifier>{87795B51-F339-D787-BC74-200528F41B64}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\Smithy.h" />
     <ClInclude Include="src\Smithy\Application.h">
       <Filter>Smithy</Filter>
     </ClInclude>
@@ -18,16 +19,22 @@
     <ClInclude Include="src\Smithy\EntryPoint.h">
       <Filter>Smithy</Filter>
     </ClInclude>
+    <ClInclude Include="src\Smithy\Events\ApplicationEvent.h">
+      <Filter>Smithy\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Smithy\Events\Event.h">
+      <Filter>Smithy\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Smithy\Events\KeyEvent.h">
+      <Filter>Smithy\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Smithy\Events\MouseEvent.h">
+      <Filter>Smithy\Events</Filter>
+    </ClInclude>
     <ClInclude Include="src\Smithy\Log.h">
       <Filter>Smithy</Filter>
     </ClInclude>
-    <ClInclude Include="src\Smithy.h">
-      <Filter>Smithy</Filter>
-    </ClInclude>
-    <ClInclude Include="src\Smithy\Events\Event.h" />
-    <ClInclude Include="src\Smithy\Events\KeyEvent.h" />
-    <ClInclude Include="src\Smithy\Events\MouseEvent.h" />
-    <ClInclude Include="src\Smithy\Events\ApplicationEvent.h" />
+    <ClInclude Include="src\sypch.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Smithy\Application.cpp">
@@ -36,5 +43,6 @@
     <ClCompile Include="src\Smithy\Log.cpp">
       <Filter>Smithy</Filter>
     </ClCompile>
+    <ClCompile Include="src\sypch.cpp" />
   </ItemGroup>
 </Project>

@@ -1,3 +1,4 @@
+#include "sypch.h"
 #include "Application.h"
 
 #include "Smithy/Events/ApplicationEvent.h"
