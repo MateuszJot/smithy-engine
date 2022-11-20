@@ -1,5 +1,8 @@
 #include "Application.h"
 
+#include "Smithy/Events/ApplicationEvent.h"
+#include "Smithy/Log.h"
+
 namespace Smithy {
 	Application::Application() {
 	}
@@ -7,7 +10,12 @@ namespace Smithy {
 	Application::~Application() {
 	}
 
-	void Application::Run() {
+	void Application::Run() 
+	{
+		//event test
+		WindowResizeEvent e(1280, 720);
+		SMITHY_TRACE(e);
+
 		while(true);
 	}
 }
